@@ -669,6 +669,7 @@ grpc_cc_library(
         "src/core/lib/gprpp/time_util.cc",
         "src/core/lib/profiling/basic_timers.cc",
         "src/core/lib/profiling/stap_timers.cc",
+        "src/core/lib/iomgr/exec_ctx.cc",
     ],
     hdrs = [
         "src/core/lib/gpr/alloc.h",
@@ -697,6 +698,7 @@ grpc_cc_library(
         "src/core/lib/gprpp/thd.h",
         "src/core/lib/gprpp/time_util.h",
         "src/core/lib/profiling/timers.h",
+        "src/core/lib/iomgr/exec_ctx.h",
     ],
     external_deps = [
         "absl/base",
@@ -1308,7 +1310,6 @@ grpc_cc_library(
         "src/core/lib/iomgr/event_engine/resolver.cc",
         "src/core/lib/iomgr/event_engine/tcp.cc",
         "src/core/lib/iomgr/event_engine/timer.cc",
-        "src/core/lib/iomgr/exec_ctx.cc",
         "src/core/lib/iomgr/executor.cc",
         "src/core/lib/iomgr/executor/mpmcqueue.cc",
         "src/core/lib/iomgr/executor/threadpool.cc",
@@ -1474,7 +1475,6 @@ grpc_cc_library(
         "src/core/lib/iomgr/event_engine/pollset.h",
         "src/core/lib/iomgr/event_engine/promise.h",
         "src/core/lib/iomgr/event_engine/resolved_address_internal.h",
-        "src/core/lib/iomgr/exec_ctx.h",
         "src/core/lib/iomgr/executor.h",
         "src/core/lib/iomgr/executor/mpmcqueue.h",
         "src/core/lib/iomgr/executor/threadpool.h",
