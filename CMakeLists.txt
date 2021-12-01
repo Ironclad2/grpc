@@ -1671,6 +1671,7 @@ add_library(gpr SHARED
   src/core/lib/gprpp/thd_posix.cc
   src/core/lib/gprpp/thd_windows.cc
   src/core/lib/gprpp/time_util.cc
+  src/core/lib/iomgr/exec_ctx.cc
   src/core/lib/profiling/basic_timers.cc
   src/core/lib/profiling/stap_timers.cc
 )
@@ -1730,6 +1731,7 @@ add_library(gpr
   src/core/lib/gprpp/thd_posix.cc
   src/core/lib/gprpp/thd_windows.cc
   src/core/lib/gprpp/time_util.cc
+  src/core/lib/iomgr/exec_ctx.cc
   src/core/lib/profiling/basic_timers.cc
   src/core/lib/profiling/stap_timers.cc
 )
@@ -2214,7 +2216,6 @@ add_library(grpc SHARED
   src/core/lib/iomgr/event_engine/resolver.cc
   src/core/lib/iomgr/event_engine/tcp.cc
   src/core/lib/iomgr/event_engine/timer.cc
-  src/core/lib/iomgr/exec_ctx.cc
   src/core/lib/iomgr/executor.cc
   src/core/lib/iomgr/executor/mpmcqueue.cc
   src/core/lib/iomgr/executor/threadpool.cc
@@ -2781,7 +2782,6 @@ add_library(grpc
   src/core/lib/iomgr/event_engine/resolver.cc
   src/core/lib/iomgr/event_engine/tcp.cc
   src/core/lib/iomgr/event_engine/timer.cc
-  src/core/lib/iomgr/exec_ctx.cc
   src/core/lib/iomgr/executor.cc
   src/core/lib/iomgr/executor/mpmcqueue.cc
   src/core/lib/iomgr/executor/threadpool.cc
@@ -3482,7 +3482,6 @@ add_library(grpc_unsecure SHARED
   src/core/lib/iomgr/event_engine/resolver.cc
   src/core/lib/iomgr/event_engine/tcp.cc
   src/core/lib/iomgr/event_engine/timer.cc
-  src/core/lib/iomgr/exec_ctx.cc
   src/core/lib/iomgr/executor.cc
   src/core/lib/iomgr/executor/mpmcqueue.cc
   src/core/lib/iomgr/executor/threadpool.cc
@@ -3767,7 +3766,6 @@ add_library(grpc_unsecure
   src/core/lib/iomgr/event_engine/resolver.cc
   src/core/lib/iomgr/event_engine/tcp.cc
   src/core/lib/iomgr/event_engine/timer.cc
-  src/core/lib/iomgr/exec_ctx.cc
   src/core/lib/iomgr/executor.cc
   src/core/lib/iomgr/executor/mpmcqueue.cc
   src/core/lib/iomgr/executor/threadpool.cc
@@ -9156,6 +9154,7 @@ add_executable(activity_test
   src/core/lib/gprpp/thd_posix.cc
   src/core/lib/gprpp/thd_windows.cc
   src/core/lib/gprpp/time_util.cc
+  src/core/lib/iomgr/exec_ctx.cc
   src/core/lib/profiling/basic_timers.cc
   src/core/lib/profiling/stap_timers.cc
   src/core/lib/promise/activity.cc
@@ -11907,6 +11906,7 @@ add_executable(core_configuration_test
   src/core/lib/gprpp/thd_posix.cc
   src/core/lib/gprpp/thd_windows.cc
   src/core/lib/gprpp/time_util.cc
+  src/core/lib/iomgr/exec_ctx.cc
   src/core/lib/profiling/basic_timers.cc
   src/core/lib/profiling/stap_timers.cc
   test/core/config/core_configuration_test.cc
@@ -12748,6 +12748,7 @@ add_executable(for_each_test
   src/core/lib/gprpp/thd_posix.cc
   src/core/lib/gprpp/thd_windows.cc
   src/core/lib/gprpp/time_util.cc
+  src/core/lib/iomgr/exec_ctx.cc
   src/core/lib/profiling/basic_timers.cc
   src/core/lib/profiling/stap_timers.cc
   src/core/lib/promise/activity.cc
@@ -14360,6 +14361,7 @@ add_executable(latch_test
   src/core/lib/gprpp/thd_posix.cc
   src/core/lib/gprpp/thd_windows.cc
   src/core/lib/gprpp/time_util.cc
+  src/core/lib/iomgr/exec_ctx.cc
   src/core/lib/profiling/basic_timers.cc
   src/core/lib/profiling/stap_timers.cc
   src/core/lib/promise/activity.cc
@@ -14981,6 +14983,7 @@ add_executable(observable_test
   src/core/lib/gprpp/thd_posix.cc
   src/core/lib/gprpp/thd_windows.cc
   src/core/lib/gprpp/time_util.cc
+  src/core/lib/iomgr/exec_ctx.cc
   src/core/lib/profiling/basic_timers.cc
   src/core/lib/profiling/stap_timers.cc
   src/core/lib/promise/activity.cc
@@ -15227,6 +15230,7 @@ add_executable(pipe_test
   src/core/lib/gprpp/thd_posix.cc
   src/core/lib/gprpp/thd_windows.cc
   src/core/lib/gprpp/time_util.cc
+  src/core/lib/iomgr/exec_ctx.cc
   src/core/lib/profiling/basic_timers.cc
   src/core/lib/profiling/stap_timers.cc
   src/core/lib/promise/activity.cc
